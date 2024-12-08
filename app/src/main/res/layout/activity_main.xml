@@ -7,13 +7,29 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
+    <LinearLayout
+        android:id="@+id/buttons"
+        android:layout_width="300dp"
+        android:layout_height="500dp"
+        android:background="#FF8000"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="@id/lower_menu"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="@id/top_menu"
+        app:layout_constraintVertical_chainStyle="packed" />
 
+    <FrameLayout
+        android:id="@+id/lower_menu"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="#008000"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+    <FrameLayout
+        android:id="@+id/top_menu"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="#0000FF"
+        app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

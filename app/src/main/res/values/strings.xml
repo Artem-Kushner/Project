@@ -1,9 +1,10 @@
 <resources>
     <string name="app_name">Project</string>
     <string name="Buttons1">МЕНЮ</string>
-    <string name="Buttons2">ИЗБРАННОЕ</string>
-    <string name="Buttons3">ПОСМОТРЕТЬ ПОЗЖЕ</string>
-    <string name="Buttons4">ПОДБОРКИ</string>
-    <string name="Buttons5">НАСТРОЙКИ</string>
+    <string name="favorites">ИЗБРАННОЕ</string>
+    <string name="watch_later">ПОСМОТРЕТЬ ПОЗЖЕ</string>
+    <string name="selections">ПОДБОРКИ</string>
+    <string name="toolbar_setings">НАСТРОЙКИ</string>
     <string name="disclaimer">Постеры взяы с https://www.movieposters.com/</string>
+    <string name="page">Мой проект</string>
 </resources>

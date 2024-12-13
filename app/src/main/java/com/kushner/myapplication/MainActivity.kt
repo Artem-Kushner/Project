@@ -19,21 +19,30 @@ class MainActivity : AppCompatActivity() {
         val view = binding.root
 
         setContentView(view)
-        binding.buttons1.setOnClickListener {
-            Toast.makeText(this, "МЕНЮ", Toast.LENGTH_SHORT).show()
-        }
-        binding.buttons2.setOnClickListener {
-            Toast.makeText(this, "ИЗБРАННОЕ", Toast.LENGTH_SHORT).show()
-        }
-        binding.buttons3.setOnClickListener {
-            Toast.makeText(this, "ПОСМОТРЕТЬ ПОЗЖЕ", Toast.LENGTH_SHORT).show()
-        }
-        binding.buttons4.setOnClickListener {
-            Toast.makeText(this, "ПОДБОРКИ", Toast.LENGTH_SHORT).show()
-        }
-        binding.buttons5.setOnClickListener {
-            Toast.makeText(this, "НАСТРОЙКИ", Toast.LENGTH_SHORT).show()
+
+        binding.topAppBar.setOnMenuItemClickListener{
+            when(it.itemId){
+                R.id.settings_menu -> {
+                    Toast.makeText(this, "Настройки", Toast.LENGTH_SHORT).show()
+                    true
+                }
+                else -> false
+            }
+            when(it.itemId){
+                R.id.favorites -> {
+                    Toast.makeText(this, "Избранное" , Toast.LENGTH_SHORT).show()
+                    true
+                }
+                R.id.watch_later -> {
+                    Toast.makeText(this, "Посмотреть похже", Toast.LENGTH_SHORT).show()
+                    true
+                }
+                R.id.selections -> {
+                    Toast.makeText(this, "Подборки", Toast.LENGTH_SHORT).show()
+                    true
+                }
+                else -> false
+            }
         }
     }
-
 }

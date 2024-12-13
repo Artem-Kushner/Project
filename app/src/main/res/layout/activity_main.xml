@@ -24,50 +24,50 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="?selectableItemBackgroundBorderless"
+            android:text="@string/Buttons1"
             android:textColor="@color/white"
             android:textSize="16sp"
-            android:textStyle="italic"
-            android:text="@string/Buttons1" />
+            android:textStyle="italic" />
 
         <Button
             android:id="@+id/buttons2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="?selectableItemBackgroundBorderless"
+            android:text="@string/Buttons2"
             android:textColor="@color/white"
             android:textSize="16sp"
-            android:textStyle="italic"
-            android:text="@string/Buttons2" />
+            android:textStyle="italic" />
 
         <Button
             android:id="@+id/buttons3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="?selectableItemBackgroundBorderless"
+            android:text="@string/Buttons3"
             android:textColor="@color/white"
             android:textSize="16sp"
-            android:textStyle="italic"
-            android:text="@string/Buttons3" />
+            android:textStyle="italic" />
 
         <Button
             android:id="@+id/buttons4"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="?selectableItemBackgroundBorderless"
+            android:text="@string/Buttons4"
             android:textColor="@color/white"
             android:textSize="16sp"
-            android:textStyle="italic"
-            android:text="@string/Buttons4" />
+            android:textStyle="italic" />
 
         <Button
             android:id="@+id/buttons5"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="?selectableItemBackgroundBorderless"
+            android:text="@string/Buttons5"
             android:textColor="@color/white"
             android:textSize="16sp"
-            android:textStyle="italic"
-            android:text="@string/Buttons5" />
+            android:textStyle="italic" />
 
     </LinearLayout>
 
@@ -82,11 +82,11 @@
         android:id="@+id/top_menu"
         android:layout_width="match_parent"
         android:layout_height="100dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:cardCornerRadius="15dp"
+        android:layout_margin="10dp"
         android:elevation="20dp"
-        android:layout_margin="10dp">
+        app:cardCornerRadius="15dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
 
         <LinearLayout
 

@@ -15,7 +15,9 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivityMainBinding.inflate(layoutInflater)
+
         val view = binding.root
+
         setContentView(view)
         binding.buttons1.setOnClickListener {
             Toast.makeText(this, "МЕНЮ", Toast.LENGTH_SHORT).show()
@@ -32,6 +34,6 @@ class MainActivity : AppCompatActivity() {
         binding.buttons5.setOnClickListener {
             Toast.makeText(this, "НАСТРОЙКИ", Toast.LENGTH_SHORT).show()
         }
-        }
-
     }
+
+}

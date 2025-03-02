@@ -7,4 +7,7 @@
     <string name="toolbar_setings">НАСТРОЙКИ</string>
     <string name="disclaimer">Постеры взяы с https://www.movieposters.com/</string>
     <string name="page">Мой проект</string>
+    <string name="double_back_toast">Нажмите дважды для выхода</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
